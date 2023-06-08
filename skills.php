@@ -40,9 +40,6 @@ if(!$conn){
     }
     ?>
 
-
-
-?>
     <h2 style="color:red">About the author</h2>
 <p>Am chauncy Mills. I did my secondary education at Umbwi Secobdary School in Dedza. Am currently doing education ICT at Mzuzu University</p>
 <h4 style="color:orange ">Skills and competicies</h4>
