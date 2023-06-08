@@ -56,9 +56,7 @@ if (!$result) {
     die("Query failed: " . mysqli_error($conn));
 }
 ?>
-}
- 
-?>
+
         <h2 style= text-align:"centre">DR CHAUNCY'S PROGRAMMING CLASS </h2> 
 <p style="text-align: centre"> 
     <img src="IMG_20230120_123714_417.jpg" width="10%" height="10%" 
