@@ -33,9 +33,6 @@ if (!$result) {
     die("Query failed: " . mysqli_error($conn));
 }
 ?>
-}
- 
-?>
     <h4>Contact us now..........</h4>
     <p><b>Contacts</b> </p>
     <p>
