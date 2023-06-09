@@ -30,7 +30,7 @@ if(!$conn){
     $query = "SELECT * FROM skills";
     $result = mysqli_query($conn, $query);
     while ($row = mysqli_fetch_assoc($result)) {
-        echo "<p>" . $row['name'] . "</p>";
+        echo "<p>" . $row['NAME'] . "</p>";
     }
         mysqli_close($conn);
     
