@@ -15,7 +15,7 @@ $username = "root";
 $password = "";
 $dbname = "my_data";
 $conn = new mysqli($severname, $username, $password, $dbname);
-if(!$conn){
+if($conn){
 echo "successful";
 }
 else
