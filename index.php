@@ -1,28 +1,43 @@
+<?php
+session_start();
+?>
+
 <!DOCTYPE html>
-<html>
-    <head><title>index</title>
-     <style>
-             body{
-padding:1;
-margin:1;
-font-family:impact;
- background-color:rgb(226, 99, 188);
-background-size:cover;
-background-position:center;
-background-repeat:no-repeat;
-         h2{
-            align= centre;
-         }
-     </style>
-    </head>
-    <body background="color: blue">
-        <h2 style="text-align:center"> <font color="red">CHANCY MILLS</font> </h2>
-        <p style="text-align:center">
-        <a href="Home.html"> | HOME| </a>
-        <a href="About1.html"> |ABOUT|</a>
-        <a href="contacts.html"> | CONTACTS | </a>
-        <p style="text-align:center">Welcome to my home page</p>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register Login</title>
+
+    <style>
+        ul{
+            list-style: none;
+            display: flex;
+            justify-content: space-around;
+        }
+
+        h1{
+            margin-top: 100px;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+<?php if (isset($_SESSION["username"])): ?>
+        <h1>nav</h1>
+    <?php else: ?>
+        <nav>
+        <ul>
+            
+            <li><a href="Home.php">Register</a></li>
+            <li><a href="">logout</a></li>
+        </ul>
+    </nav>
+    <?php endif; ?>
+
+
+<h1>Welcome to my to my  page</h1>
     
-        </p>
-    </body>
+</body>
 </html>
