@@ -2,7 +2,7 @@
 $server = "localhost";
 $username = "root";
 $dBpassword = "N@ruch1g0";
-$dbName = "loginSystem";
+$dbName = "my_data";
 
 $connection = new mysqli($server, $username, $dBpassword, $dbName);
 
@@ -30,7 +30,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     if ($connection->query($sql) === true) {
         echo "User registered successfully.";
         
-        header("Location: loginPage.php");
+        header("Location: Home.php");
         exit;
     } else {
         echo "Error: " . $sql . "<br>" . $connection->error;
