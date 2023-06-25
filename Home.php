@@ -98,5 +98,5 @@ border-color:rgb(223, 247, 12);
 <p><hr /> <font color="white">Make sure you entered correct informatin!</font> <hr /></p>
 <br/>
 <img src="CCCC.jpg" width="100px" length="10000px"><img><br/>
-<a href="my assignment.html">SKIP</a>
+<a href="my assignment.php">SKIP</a>
 </html>
